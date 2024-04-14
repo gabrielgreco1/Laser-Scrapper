@@ -1,0 +1,10 @@
+name: laser_scraper
+channels:
+  - defaults
+dependencies:
+  - python=3.11  # Especifique a versão do Python que você está usando
+  - selenium
+  - openpyxl
+  - pip
+  - pip:
+    - webdriver_manager
